@@ -1,0 +1,160 @@
+html, body {
+    background:white;
+    margin: 0; 
+    scroll-behavior: smooth; 
+}
+* {
+    box-sizing: border-box;
+  }
+  .topnav {
+    background-color: #cf4040;
+    overflow: hidden;
+    top: 0px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family:'Playfair Display', serif;  
+    padding-bottom: 17px;
+    padding-top: 17px;
+    
+  }
+  
+  
+  .topnav a {
+    font-family: 'Playfair Display', serif; 
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 50px;
+  }
+  .topnav a:hover {
+    background-color: #F7D6E0;
+    color: black;
+  
+ 
+    
+  }
+  
+  .header {
+    background-color: white;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    width: 70%;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+      
+  }
+
+  .hello{
+    right: 20%;
+    top: 19%;
+    font-size: 64px;
+    position: absolute;
+    color: black;
+  }
+  .designer{
+    right: 20%;
+    top: 40%;
+    font-size: 40px;
+    position: absolute;
+    color: black;
+
+  }
+  .textheader{
+      float: flex-end;
+      width: 30%;
+      position: absolute;
+      height: 200px;
+      
+  }
+
+  
+ .about_me{
+   background-color: #cf4040;
+   width: 100%;
+   height: 50px;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+
+ .about{
+   font-size: 30px;
+   color: black; 
+ }
+
+ .contentabout{
+   background-color: #cf4040;
+   width: 100%;
+   height: 400px;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .education{
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .education1{
+  font-size: 30px;
+  color: black; 
+ }
+ .contenteducation{
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .projects{
+  background-color: #cf4040;
+  width: 100%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .projects1{
+  font-size: 30px;
+  color: black; 
+ }
+
+ .contentprojects{
+  background-color: #cf4040;
+  width: 100%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .contact {
+  background-color: white;
+  width: 100%;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .contact1{
+  font-size: 30px;
+  color: black; 
+ }
+
+ .contentcontact{
+  background-color: white;
+  width: 100%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+ }
